@@ -5,22 +5,23 @@
  */
 package basededatos;
 import java.sql.*;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 /**
  *
  * @author Paolo_Veliz
  */
 public class Basededatos {
-
+HashText prueba = new HashText();
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
- Coneccionptj base = new Coneccionptj();
- // Connection cb = 
- base.Conectarabase();
- MenuPrincipal menup = new MenuPrincipal();
- menup.setVisible(true);
-    
-    }
+   Usuario inicio = new Usuario();
+   inicio.setVisible(true);
+ 
+ 
+}
     
 }
